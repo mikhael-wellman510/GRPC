@@ -1,0 +1,8 @@
+install gin
+1.go get -u github.com/gin-gonic/gin
+
+install package untuk proto dan grpc
+go get google.golang.org/protobuf@latest
+go get google.golang.org/grpc@latest
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
